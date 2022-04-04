@@ -1,0 +1,78 @@
+{
+  "name": "karma-requirejs-esm-preprocessor",
+  "version": "1.0.0",
+  "description": "Karma preprocessor for converting ES modules to AMD in RequireJS projects.",
+  "author": "Ferdinand Prantl <prantlf@gmail.com>",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor/blob/master/LICENSE"
+    }
+  ],
+  "homepage": "https://github.com/prantlf/karma-requirejs-esm-preprocessor#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "fix": "eslint *.js src test",
+    "check1": "karma start test/karma.conf1.js",
+    "check2": "karma start test/karma.conf2.js",
+    "check": "npm run check1 && npm run check2",
+		"cover": "c8 npm run check1 && c8 --no-clean npm run check2 && c8 report -r text -r lcov && c8 check-coverage --100",
+    "test": "npm run lint && npm run cover"
+  },
+  "c8": {
+    "reporter": []
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "failComment": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  },
+  "dependencies": {
+    "requirejs-esm-preprocessor": "^1.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "c8": "^7.11.0",
+    "eslint": "^8.12.0",
+    "jasmine-core": "^4.0.1",
+    "karma": "^6.3.17",
+    "karma-brief-reporter": "^0.2.1",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^4.0.2"
+  },
+  "keywords": [
+    "karma-preprocessor",
+    "karma-plugin",
+    "preprocessor",
+    "plugin",
+    "requirejs",
+    "amd",
+    "esm",
+    "es6"
+  ]
+}
