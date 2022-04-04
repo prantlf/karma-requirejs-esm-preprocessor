@@ -30,7 +30,7 @@
     "check1": "karma start test/karma.conf1.js",
     "check2": "karma start test/karma.conf2.js",
     "check": "npm run check1 && npm run check2",
-		"cover": "c8 npm run check1 && c8 --no-clean npm run check2 && c8 report -r text -r lcov && c8 check-coverage --100",
+    "cover": "c8 npm run check1 && c8 --no-clean npm run check2 && c8 report -r text -r lcov && c8 check-coverage --100",
     "test": "npm run lint && npm run cover"
   },
   "c8": {
@@ -68,6 +68,7 @@
   "keywords": [
     "karma-preprocessor",
     "karma-plugin",
+    "karma",
     "preprocessor",
     "plugin",
     "requirejs",

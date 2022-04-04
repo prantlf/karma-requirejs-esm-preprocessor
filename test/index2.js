@@ -1,20 +1,20 @@
 function fetchScript(name) {
-	const url = `/base/${name}.js`
-	return fetch(url).then(response => response.text())
+  const url = `/base/${name}.js`
+  return fetch(url).then(response => response.text())
 }
 
 describe('the preprocessor', () => {
   it('leaves AMD input intact', async () => {
-		const contents = await fetchScript('amd')
-		expect(contents).toBe(`define([\'test\'], function (test) { test() })
+    const contents = await fetchScript('amd')
+    expect(contents).toBe(`define([\'test\'], function (test) { test() })
 `)
-	})
+  })
 
   it('transforms ESM input', async () => {
-		const contents = await fetchScript('esm')
-		expect(contents).toBe(`define(["test"], function (test) {
+    const contents = await fetchScript('esm')
+    expect(contents).toBe(`define(["test"], function (test) {
   test();
 });
 `)
-	})
+  })
 })

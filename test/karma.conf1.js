@@ -19,6 +19,10 @@ module.exports = function(config) {
       'esm.js': ['requirejs-esm']
     },
 
+    briefReporter: {
+      renderOnRunCompleteOnly: !!process.env.CI
+    },
+
     autoWatch: false,
     singleRun: true
   })

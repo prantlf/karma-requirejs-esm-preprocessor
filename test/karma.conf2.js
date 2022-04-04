@@ -23,6 +23,10 @@ module.exports = function(config) {
       sourceMap: false
     },
 
+    briefReporter: {
+      renderOnRunCompleteOnly: !!process.env.CI
+    },
+
     autoWatch: false,
     singleRun: true
   })
