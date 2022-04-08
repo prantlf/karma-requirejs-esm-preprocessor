@@ -10,7 +10,7 @@ specifiers:
   karma-brief-reporter: ^0.2.1
   karma-chrome-launcher: ^3.1.1
   karma-jasmine: ^4.0.2
-  requirejs-esm-preprocessor: ^1.0.0
+  requirejs-esm-preprocessor: ^1.0.1
 
 devDependencies:
   '@semantic-release/changelog': 6.0.1
@@ -22,7 +22,7 @@ devDependencies:
   karma-brief-reporter: 0.2.1_karma@6.3.17
   karma-chrome-launcher: 3.1.1
   karma-jasmine: 4.0.2_karma@6.3.17
-  requirejs-esm-preprocessor: 1.0.0
+  requirejs-esm-preprocessor: 1.0.1
 
 packages:
 
@@ -1557,20 +1557,20 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /requirejs-esm-preprocessor/1.0.0:
-    resolution: {integrity: sha512-hAlBpQmShYbqZ+QpSgBY0Vwzm8smvC8m93PCdP7/z8PDRkSFhBmDxKJlNF/cCz0lwecfo9+AHInQLJfAb8hFaw==}
+  /requirejs-esm-preprocessor/1.0.1:
+    resolution: {integrity: sha512-2YxgHrfSTj+7m+PciYVu3ufttyW8OgsaqnD+7cTGihzztW/q9s6XoK1AdN8pPcMEPYfYxyKL/CXCag2GxyxVNQ==}
     engines: {node: '>=14'}
     dependencies:
       cors: 2.8.5
       mime: 3.0.0
       morgan: 1.10.0
       polka: 0.5.2
-      requirejs-esm: 2.0.0
+      requirejs-esm: 2.0.1
       serve-index: 1.9.1
     dev: true
 
-  /requirejs-esm/2.0.0:
-    resolution: {integrity: sha512-ttMNHgLyNvA6wvHZv+vp/1LD4dAx/oqpI3oiGHXKKp1IOB5nv3SWU9ka3hSHQWuZJg5u5McoAO0TM1lh+8OTxA==}
+  /requirejs-esm/2.0.1:
+    resolution: {integrity: sha512-xvty209WfpmK/oauJYH9hrc/w1hAN0CsGzVbwGc5KdOCHz/JtIpTehloHi/yuD5qm6ScHtj9NOuMR/A0218Y5A==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
