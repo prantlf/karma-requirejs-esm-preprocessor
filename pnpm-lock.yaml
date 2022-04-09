@@ -4,25 +4,25 @@ specifiers:
   '@semantic-release/changelog': ^6.0.1
   '@semantic-release/git': ^10.0.1
   c8: ^7.11.0
-  eslint: ^8.12.0
+  eslint: ^8.13.0
   jasmine-core: ^4.0.1
   karma: ^6.3.17
   karma-brief-reporter: ^0.2.1
   karma-chrome-launcher: ^3.1.1
   karma-jasmine: ^4.0.2
-  requirejs-esm-preprocessor: ^1.0.1
+  requirejs-esm-preprocessor: ^1.0.2
 
 devDependencies:
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/git': 10.0.1
   c8: 7.11.0
-  eslint: 8.12.0
+  eslint: 8.13.0
   jasmine-core: 4.0.1
   karma: 6.3.17
   karma-brief-reporter: 0.2.1_karma@6.3.17
   karma-chrome-launcher: 3.1.1
   karma-jasmine: 4.0.2_karma@6.3.17
-  requirejs-esm-preprocessor: 1.0.1
+  requirejs-esm-preprocessor: 1.0.2
 
 packages:
 
@@ -601,13 +601,13 @@ packages:
       estraverse: 5.3.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.12.0:
+  /eslint-utils/3.0.0_eslint@8.13.0:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.12.0
+      eslint: 8.13.0
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -621,8 +621,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /eslint/8.12.0:
-    resolution: {integrity: sha512-it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==}
+  /eslint/8.13.0:
+    resolution: {integrity: sha512-D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -634,7 +634,7 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
-      eslint-utils: 3.0.0_eslint@8.12.0
+      eslint-utils: 3.0.0_eslint@8.13.0
       eslint-visitor-keys: 3.3.0
       espree: 9.3.1
       esquery: 1.4.0
@@ -1557,8 +1557,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /requirejs-esm-preprocessor/1.0.1:
-    resolution: {integrity: sha512-2YxgHrfSTj+7m+PciYVu3ufttyW8OgsaqnD+7cTGihzztW/q9s6XoK1AdN8pPcMEPYfYxyKL/CXCag2GxyxVNQ==}
+  /requirejs-esm-preprocessor/1.0.2:
+    resolution: {integrity: sha512-W4Bxd4IlE/WCjUjvzWc/X/0NalBMwccxD+wesagTqftFItTEk3OGl5fjl77FM+5P1vaGixUFC8jExENUe8zOCQ==}
     engines: {node: '>=14'}
     dependencies:
       cors: 2.8.5
