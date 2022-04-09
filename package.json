@@ -1,6 +1,6 @@
 {
   "name": "karma-requirejs-esm-preprocessor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Karma preprocessor for converting ES modules to AMD in RequireJS projects.",
   "author": "Ferdinand Prantl <prantlf@gmail.com>",
   "license": "MIT",
