@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.0.4...v1.0.5) (2022-04-10)
+
+
+### Bug Fixes
+
+* Base the paths passed to isScript on basePath ([9d8a93d](https://github.com/prantlf/karma-requirejs-esm-preprocessor/commit/9d8a93de095a528b493bfce51798cb76fb7b4a30))
+* Upgrade dependencies ([63a539b](https://github.com/prantlf/karma-requirejs-esm-preprocessor/commit/63a539b11c2bb2ea9978be62c4e0b7955a115b16))
+
 ## [1.0.4](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.0.3...v1.0.4) (2022-04-09)
 
 
