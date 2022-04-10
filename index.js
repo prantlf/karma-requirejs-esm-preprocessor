@@ -1,14 +1,16 @@
 const { preprocess } = require('requirejs-esm-preprocessor')
 
 function createPreprocessor(args, config, helper) {
-  const { logLevel, LOG_DEBUG, LOG_DISABLE, requirejsEsmPreprocessor } = config
+  const { basePath, logLevel, LOG_DEBUG, LOG_DISABLE, requirejsEsmPreprocessor } = config
   const defaults = { sourceMap: true }
   const { isScript, sourceMap } = helper.merge(defaults, args, requirejsEsmPreprocessor || {})
   const verbose = logLevel === LOG_DEBUG
   const silent = logLevel === LOG_DISABLE
+  const { length: basePathLen } = basePath
 
   return (contents, file, done) => {
-    const { originalPath: path } = file
+    let { originalPath: path } = file
+    if (path.startsWith(basePath)) path = path.substring(basePathLen)
     if (!isScript || isScript(path)) {
       contents = preprocess({ path, contents, isScript, sourceMap, verbose, silent })
     }
