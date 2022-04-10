@@ -10,7 +10,7 @@ specifiers:
   karma-brief-reporter: ^0.2.1
   karma-chrome-launcher: ^3.1.1
   karma-jasmine: ^4.0.2
-  requirejs-esm-preprocessor: ^1.1.1
+  requirejs-esm-preprocessor: ^1.2.0
 
 devDependencies:
   '@semantic-release/changelog': 6.0.1
@@ -22,7 +22,7 @@ devDependencies:
   karma-brief-reporter: 0.2.1_karma@6.3.17
   karma-chrome-launcher: 3.1.1
   karma-jasmine: 4.0.2_karma@6.3.17
-  requirejs-esm-preprocessor: 1.1.1
+  requirejs-esm-preprocessor: 1.2.0
 
 packages:
 
@@ -1585,8 +1585,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /requirejs-esm-preprocessor/1.1.1:
-    resolution: {integrity: sha512-KtAxROzoI+bBmgGUgB5nTod27HED+q3ikD6gVtoK6WTt0KAEL9Y6OnIJ6efhTrK8mZPXXuaQk2L2IxWNaUP9WQ==}
+  /requirejs-esm-preprocessor/1.2.0:
+    resolution: {integrity: sha512-TtVVbjRXBUCzDmIgUG9kosXAt1cDI23PrgC5E84bZNQrcG2fcxcuzz8BY4DFgUO+kJf8AYu49eSvdWf+ETTtBw==}
     engines: {node: '>=14'}
     dependencies:
       connect-block-favicon: 1.0.5
