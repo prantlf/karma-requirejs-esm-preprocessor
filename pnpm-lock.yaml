@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^5.1.0
     version: 5.1.0(karma@6.4.2)
   requirejs-esm-preprocessor:
-    specifier: ^1.3.1
-    version: 1.3.1
+    specifier: ^1.4.0
+    version: 1.4.0
 
 packages:
 
@@ -3047,8 +3047,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /requirejs-esm-preprocessor@1.3.1:
-    resolution: {integrity: sha512-g23brwF2My1WItRxBzsO9RVw8c/iRSsPElO9Q2WYD3om2oy16lr8QeXbdBZIJG9aFsmqW3j/h2Am1BVq4a9F5Q==}
+  /requirejs-esm-preprocessor@1.4.0:
+    resolution: {integrity: sha512-ktqwa5rPsCZ97FgCQhu9/iw7YjPtbrcRMSTVMrCaZMvTFA39mRH1jAEsqvJNpgwiWxnflFjlao6Z8p0sHSU7/w==}
     engines: {node: '>=14'}
     dependencies:
       connect-block-favicon: 1.0.5
