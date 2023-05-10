@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.0.8...v1.0.9) (2023-05-10)
+
+
+### Bug Fixes
+
+* Upgrade dependencies ([c9d0251](https://github.com/prantlf/karma-requirejs-esm-preprocessor/commit/c9d025100a8096cb86fdbc41de150fdf2c251234))
+
 ## [1.0.8](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.0.7...v1.0.8) (2023-05-05)
 
 
