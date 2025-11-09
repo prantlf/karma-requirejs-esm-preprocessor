@@ -1,5 +1,15 @@
 # Changes
 
+## [2.0.0](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.1.0...v2.0.0) (2025-11-09)
+
+### Features
+
+* Insert "use strict" to output AMD code by default ([babf6d9](https://github.com/prantlf/karma-requirejs-esm-preprocessor/commit/babf6d95e3f63d61fa27a03fe49deb709efe2d44))
+
+### BREAKING CHANGES
+
+Each AMD module output will start with `"use strict"` by default from now on. ESM execution mode is strict by default. Comply to this in the output AMD code too. You can set the flag `useStrict` to `false` to relax the parse mode of the output AMD modules.
+
 ## [1.1.0](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.0.10...v1.1.0) (2025-05-14)
 
 ### Features
