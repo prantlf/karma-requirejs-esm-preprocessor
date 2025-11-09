@@ -1,9 +1,5 @@
 # karma-requirejs-esm-preprocessor
 
-[![Latest version](https://img.shields.io/npm/v/karma-requirejs-esm-preprocessor)
- ![Dependency status](https://img.shields.io/librariesio/release/npm/karma-requirejs-esm-preprocessor)
-](https://www.npmjs.com/package/karma-requirejs-esm-preprocessor)
-
 [Karma] preprocessor for converting ES modules to AMD in [RequireJS] projects. Uses [requirejs-esm-preprocessor].
 
 ## Synopsis
@@ -37,6 +33,12 @@ isScript(path: string): boolean
 ```
 
 Allows further filtering the files before passing them to the preprocessor. If the patterns are inconvenient to specify what files should be preprocessed, a simple pattern can be used to capture all files and the final filtering be done by `isScript` returning `true` only for the paths to files which need preprocessing. The default is `undefined` - no extra filtering.
+
+```ts
+useStrict: boolean
+```
+
+Controls inserting `"use strict"` expression to the AMD code output. ESM modules are parsed in the strict mode by default, while AMD modules need the `"use strict"` statement. You can set this flag to `false` to relax the parse mode of the output AMD modules. The default is `true`.
 
 ```ts
 sourceMap: boolean

@@ -20,6 +20,7 @@ module.exports = function(config) {
 
     requirejsEsmPreprocessor: {
       isScript: path => !path.endsWith('/index2.js'),
+      useStrict: false,
       sourceMap: false
     },
 

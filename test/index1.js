@@ -13,6 +13,7 @@ describe('the preprocessor', () => {
   it('transforms ESM input', async () => {
     const contents = await fetchScript('esm')
     expect(contents).toContain(`define(["test"], function (test) {
+  "use strict";
   test();
 });
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,`)
