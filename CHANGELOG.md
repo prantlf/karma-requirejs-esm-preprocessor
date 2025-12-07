@@ -1,5 +1,11 @@
 # Changes
 
+## [2.1.0](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v2.0.0...v2.1.0) (2025-12-07)
+
+### Features
+
+* Support transformation and updating hooks ([f0fb392](https://github.com/prantlf/karma-requirejs-esm-preprocessor/commit/f0fb392e0c9533c76077b4c9cfd03bd3b6671c2a))
+
 ## [2.0.0](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v1.1.0...v2.0.0) (2025-11-09)
 
 ### Features
