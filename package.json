@@ -37,19 +37,19 @@
     "reporter": []
   },
   "peerDependencies": {
-    "requirejs-esm-preprocessor": "^3.0.0"
+    "requirejs-esm-preprocessor": "^3.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "c8": "^10.1.3",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
-    "jasmine-core": "^5.12.1",
+    "jasmine-core": "^5.13.0",
     "karma": "^6.4.4",
     "karma-brief-reporter": "^0.2.2",
     "karma-chrome-launcher": "^3.2.0",
     "karma-jasmine": "^5.1.0",
-    "requirejs-esm-preprocessor": "^3.0.0"
+    "requirejs-esm-preprocessor": "^3.2.0"
   },
   "keywords": [
     "karma-preprocessor",

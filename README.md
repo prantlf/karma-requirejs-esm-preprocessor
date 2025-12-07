@@ -46,6 +46,12 @@ sourceMap: boolean
 
 Enables an inline source map in the preprocessed output to support debugging in the browser. The default is `true`.
 
+```ts
+onBeforeTransform, onAfterTransform, onBeforeUpdate, onAfterUpdate
+```
+
+ESM transformation and AMD update callbacks.
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code.
