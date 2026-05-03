@@ -25,8 +25,8 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint *.js",
-    "fix": "eslint *.js src test",
+    "lint": "biome lint *.js",
+    "fix": "biome lint --fix *.js",
     "check1": "karma start test/karma.conf1.js",
     "check2": "karma start test/karma.conf2.js",
     "check": "npm run check1 && npm run check2",
@@ -37,19 +37,17 @@
     "reporter": []
   },
   "peerDependencies": {
-    "requirejs-esm-preprocessor": "^3.2.0"
+    "requirejs-esm-preprocessor": "^3.3.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "c8": "^10.1.3",
-    "eslint": "^9.39.1",
-    "globals": "^16.5.0",
-    "jasmine-core": "^5.13.0",
+    "@biomejs/biome": "^2.4.14",
+    "c8": "^11.0.0",
+    "jasmine-core": "^6.2.0",
     "karma": "^6.4.4",
-    "karma-brief-reporter": "^0.2.2",
+    "karma-brief-reporter": "^0.3.0",
     "karma-chrome-launcher": "^3.2.0",
     "karma-jasmine": "^5.1.0",
-    "requirejs-esm-preprocessor": "^3.2.0"
+    "requirejs-esm-preprocessor": "^3.3.0"
   },
   "keywords": [
     "karma-preprocessor",
