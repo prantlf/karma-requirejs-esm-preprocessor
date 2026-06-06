@@ -1,2 +1,7 @@
 onlyBuiltDependencies:
   - es5-ext
+minimumReleaseAgeExclude:
+  - requirejs-esm-preprocessor
+  - requirejs-esm
+allowBuilds:
+  es5-ext: true
