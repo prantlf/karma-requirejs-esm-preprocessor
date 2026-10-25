@@ -1,5 +1,17 @@
 # Changes
 
+## [3.0.0](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v2.3.0...v3.0.0) (2026-10-25)
+
+### Features
+
+* Upgrade dependencies ([d6e81c8](https://github.com/prantlf/karma-requirejs-esm-preprocessor/commit/d6e81c8f0212418be75af59183325a72cae158c8))
+
+### BREAKING CHANGES
+
+Some dependencies switched to ESM. You'll need a recent
+version of Node.js 22 or newer to be able to load the plugin. This
+shouldn't be a problem today.
+
 ## [2.3.0](https://github.com/prantlf/karma-requirejs-esm-preprocessor/compare/v2.2.0...v2.3.0) (2026-06-06)
 
 ### Features
