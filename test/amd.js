@@ -1,1 +1,3 @@
-define(['test'], function (test) { test() })
+define(['test'], function (test) {
+  test()
+})

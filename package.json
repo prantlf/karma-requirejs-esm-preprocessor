@@ -2,62 +2,63 @@
   "name": "karma-requirejs-esm-preprocessor",
   "version": "2.3.0",
   "description": "Karma preprocessor for converting ES modules to AMD in RequireJS projects.",
-  "author": "Ferdinand Prantl <prantlf@gmail.com>",
-  "license": "MIT",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor/blob/master/LICENSE"
-    }
+  "keywords": [
+    "amd",
+    "es6",
+    "esm",
+    "karma",
+    "karma-plugin",
+    "karma-preprocessor",
+    "plugin",
+    "preprocessor",
+    "requirejs"
   ],
   "homepage": "https://github.com/prantlf/karma-requirejs-esm-preprocessor#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor.git"
-  },
   "bugs": {
     "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor/issues"
   },
-  "engines": {
-    "node": ">=14"
+  "license": "MIT",
+  "author": "Ferdinand Prantl <prantlf@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor.git"
   },
   "files": [
     "index.js"
   ],
   "scripts": {
-    "lint": "biome lint *.js",
-    "fix": "biome lint --fix *.js",
+    "lint": "oxlint",
+    "fix": "oxlint --fix",
     "check1": "karma start test/karma.conf1.js",
     "check2": "karma start test/karma.conf2.js",
     "check": "npm run check1 && npm run check2",
     "cover": "c8 npm run check1 && c8 --no-clean npm run check2 && c8 report -r text -r lcov && c8 check-coverage --100",
     "test": "npm run lint && npm run cover"
   },
+  "devDependencies": {
+    "c8": "^12.0.0",
+    "jasmine-core": "^6.3.0",
+    "karma": "^6.4.4",
+    "karma-brief-reporter": "^0.4.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
+    "requirejs-esm-preprocessor": "^4.0.0"
+  },
+  "peerDependencies": {
+    "requirejs-esm-preprocessor": "^4.0.0"
+  },
   "c8": {
     "reporter": []
   },
-  "peerDependencies": {
-    "requirejs-esm-preprocessor": "^3.4.0"
+  "engines": {
+    "node": ">=22"
   },
-  "devDependencies": {
-    "@biomejs/biome": "^2.4.16",
-    "c8": "^11.0.0",
-    "jasmine-core": "^6.2.0",
-    "karma": "^6.4.4",
-    "karma-brief-reporter": "^0.3.0",
-    "karma-chrome-launcher": "^3.2.0",
-    "karma-jasmine": "^5.1.0",
-    "requirejs-esm-preprocessor": "^3.4.0"
-  },
-  "keywords": [
-    "karma-preprocessor",
-    "karma-plugin",
-    "karma",
-    "preprocessor",
-    "plugin",
-    "requirejs",
-    "amd",
-    "esm",
-    "es6"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor/blob/master/LICENSE"
+    }
   ]
 }

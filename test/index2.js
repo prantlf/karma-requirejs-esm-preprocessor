@@ -6,7 +6,9 @@ function fetchScript(name) {
 describe('the preprocessor', () => {
   it('leaves AMD input intact', async () => {
     const contents = await fetchScript('amd')
-    expect(contents).toBe(`define([\'test\'], function (test) { test() })
+    expect(contents).toBe(`define(['test'], function (test) {
+  test()
+})
 `)
   })
 

@@ -1,7 +1,9 @@
 onlyBuiltDependencies:
   - es5-ext
 minimumReleaseAgeExclude:
-  - requirejs-esm-preprocessor
+  - connect-block-favicon
+  - karma-brief-reporter
   - requirejs-esm
+  - requirejs-esm-preprocessor
 allowBuilds:
   es5-ext: true

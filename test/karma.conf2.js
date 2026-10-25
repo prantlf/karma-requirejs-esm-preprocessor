@@ -1,8 +1,8 @@
-module.exports = function(config) {
+import esm from '../index.js'
+
+export default function (config) {
   config.set({
-    plugins: [
-      'karma-jasmine', 'karma-brief-reporter', 'karma-chrome-launcher', require('..')
-    ],
+    plugins: ['karma-jasmine', 'karma-brief-reporter', 'karma-chrome-launcher', esm],
 
     frameworks: ['jasmine'],
     reporters: ['brief'],

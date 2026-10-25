@@ -5,15 +5,16 @@
 ## Synopsis
 
 ```js
-module.exports = config => config.set({
-  preprocessors: {
-    'src/**/*.js': ['requirejs-esm']
-  },
-  requirejsEsmPreprocessor: {
-    isScript: path => !path.includes('/test/'),
-    sourceMap: true
-  }
-})
+export default config =>
+  config.set({
+    preprocessors: {
+      'src/**/*.js': ['requirejs-esm']
+    },
+    requirejsEsmPreprocessor: {
+      isScript: path => !path.includes('/test/'),
+      sourceMap: true
+    }
+  })
 ```
 
 ## Installation
