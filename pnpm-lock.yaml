@@ -33,8 +33,8 @@ importers:
         specifier: ^1.89.0
         version: 1.89.0
       requirejs-esm-preprocessor:
-        specifier: ^4.0.0
-        version: 4.0.0(supports-color@7.2.0)
+        specifier: ^4.0.1
+        version: 4.0.1(supports-color@7.2.0)
 
 packages:
 
@@ -852,8 +852,8 @@ packages:
     resolution: {integrity: sha512-DGqD7Hjpi/1or4F/aYAspXKNm5Yili0QDAFAY4QYvpqpgiY6+1jOfqpmByzjxbWd/T9mChbCArXAbDAsTm5oXA==}
     engines: {node: '>=0.12'}
 
-  meriyah@7.4.0:
-    resolution: {integrity: sha512-4npg8C/aeb+kOZo8/6XZrwzo+neA+NQU7U6BHP3KxqTzprtYQb+Fs752GRuvsJLREvblRjQng4F76DEe2QKblQ==}
+  meriyah@7.4.1:
+    resolution: {integrity: sha512-3fIW/dyrrS7xbcxs/EHstPTZX9l/NVLDrXB1b+nNKoS98MpBonPH4kZ9MXUxH1QTlY34jp7ir7eMts1FDC9weA==}
     engines: {node: '>=20.0.0'}
 
   mime-db@1.52.0:
@@ -869,8 +869,8 @@ packages:
     engines: {node: '>=4.0.0'}
     hasBin: true
 
-  mime@4.1.1:
-    resolution: {integrity: sha512-YAApRsTpM2+gnUFHhRNGfkX8NK0V5xj1nyQLufGlwEI+eX4xRsTcel2IXDuMEGSGjBvzykNW4VuoEACgwYe7BQ==}
+  mime@4.1.2:
+    resolution: {integrity: sha512-ikRzZ2RwbUVDyL9SsU0f2Phcmav4yq5r8faH5ZZKHtOZrMBLnrQOrj0uvqZ5R1uQnj+RO7Wcklw/lAf81mP9LQ==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -1031,8 +1031,8 @@ packages:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
 
-  requirejs-esm-preprocessor@4.0.0:
-    resolution: {integrity: sha512-fxjGChmVlLikyhP//jS6JHf6WQTs+HLXg/kxIA7YmA4DYPivYd/slAsEOrOzkW/R4mhPX1epDZPMYBe6dldCDg==}
+  requirejs-esm-preprocessor@4.0.1:
+    resolution: {integrity: sha512-lyk27W5+cBqVJCAHyIhQUsw7MmQwTjp31dDGF+50vpVpOc8v1w6G6N/LMDUiZXW/LDMLmjmbPd/7AX8w3SXduQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -2036,7 +2036,7 @@ snapshots:
       next-tick: 1.1.0
       timers-ext: 0.1.8
 
-  meriyah@7.4.0: {}
+  meriyah@7.4.1: {}
 
   mime-db@1.52.0: {}
 
@@ -2046,7 +2046,7 @@ snapshots:
 
   mime@2.6.0: {}
 
-  mime@4.1.1: {}
+  mime@4.1.2: {}
 
   minimatch@10.2.5:
     dependencies:
@@ -2201,11 +2201,11 @@ snapshots:
 
   require-directory@2.1.1: {}
 
-  requirejs-esm-preprocessor@4.0.0(supports-color@7.2.0):
+  requirejs-esm-preprocessor@4.0.1(supports-color@7.2.0):
     dependencies:
       connect-block-favicon: 2.0.0
       cors: 2.8.6
-      mime: 4.1.1
+      mime: 4.1.2
       morgan: 1.12.1(supports-color@7.2.0)
       polka: 0.5.2
       requirejs-esm: 5.0.0
@@ -2219,7 +2219,7 @@ snapshots:
       astring: 1.9.0
       charcodes: 0.2.1
       commander: 15.0.0
-      meriyah: 7.4.0
+      meriyah: 7.4.1
       punycode: 2.3.1
       source-map: 0.8.0-beta.0
       tiny-glob: 0.2.9

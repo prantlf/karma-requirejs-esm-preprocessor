@@ -44,21 +44,21 @@
     "karma-jasmine": "^5.1.0",
     "oxfmt": "^0.74.0",
     "oxlint": "^1.89.0",
-    "requirejs-esm-preprocessor": "^4.0.0"
+    "requirejs-esm-preprocessor": "^4.0.1"
   },
   "peerDependencies": {
-    "requirejs-esm-preprocessor": "^4.0.0"
-  },
-  "c8": {
-    "reporter": []
-  },
-  "engines": {
-    "node": ">=22"
+    "requirejs-esm-preprocessor": "^4.0.1"
   },
   "licenses": [
     {
       "type": "MIT",
       "url": "https://github.com/prantlf/karma-requirejs-esm-preprocessor/blob/master/LICENSE"
     }
-  ]
+  ],
+  "c8": {
+    "reporter": []
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }
